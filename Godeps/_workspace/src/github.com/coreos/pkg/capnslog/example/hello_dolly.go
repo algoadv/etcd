@@ -18,7 +18,7 @@ import (
 	"flag"
 	oldlog "log"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
 )
 
 var logLevel = capnslog.INFO

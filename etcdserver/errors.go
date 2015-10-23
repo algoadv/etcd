@@ -18,7 +18,7 @@ import (
 	"errors"
 	"fmt"
 
-	etcdErr "github.com/coreos/etcd/error"
+	etcdErr "github.com/algoadv/etcd/error"
 )
 
 var (

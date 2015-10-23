@@ -20,7 +20,7 @@ import (
 	"path"
 	"sort"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
 )
 
 const (
@@ -28,7 +28,7 @@ const (
 )
 
 var (
-	plog = capnslog.NewPackageLogger("github.com/coreos/etcd/pkg", "fileutil")
+	plog = capnslog.NewPackageLogger("github.com/algoadv/etcd/pkg", "fileutil")
 )
 
 // IsDirWriteable checks if dir is writable by writing and removing a file

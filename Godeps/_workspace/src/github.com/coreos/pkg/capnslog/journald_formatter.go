@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/coreos/go-systemd/journal"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/github.com/coreos/go-systemd/journal"
 )
 
 func NewJournaldFormatter() (Formatter, error) {

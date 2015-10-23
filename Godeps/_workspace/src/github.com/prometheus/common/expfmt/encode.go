@@ -18,10 +18,10 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/bitbucket.org/ww/goautoneg"
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/golang/protobuf/proto"
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/matttproud/golang_protobuf_extensions/pbutil"
-	dto "github.com/coreos/etcd/Godeps/_workspace/src/github.com/prometheus/client_model/go"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/bitbucket.org/ww/goautoneg"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/github.com/golang/protobuf/proto"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/github.com/matttproud/golang_protobuf_extensions/pbutil"
+	dto "github.com/algoadv/etcd/Godeps/_workspace/src/github.com/prometheus/client_model/go"
 )
 
 // Encoder types encode metric families into an underlying wire protocol.

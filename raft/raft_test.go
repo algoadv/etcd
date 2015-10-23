@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"testing"
 
-	pb "github.com/coreos/etcd/raft/raftpb"
+	pb "github.com/algoadv/etcd/raft/raftpb"
 )
 
 // nextEnts returns the appliable entries and updates the applied index
@@ -796,7 +796,7 @@ func TestStepIgnoreOldTermMsg(t *testing.T) {
 }
 
 // TestHandleMsgApp ensures:
-// 1. Reply false if log doesn’t contain an entry at prevLogIndex whose term matches prevLogTerm.
+// 1. Reply false if log doesn???t contain an entry at prevLogIndex whose term matches prevLogTerm.
 // 2. If an existing entry conflicts with a new one (same index but different terms),
 //    delete the existing entry and all that follow it; append any new entries not already in the log.
 // 3. If leaderCommit > commitIndex, set commitIndex = min(leaderCommit, index of last new entry).

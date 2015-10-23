@@ -22,11 +22,11 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/coreos/etcd/etcdserver"
-	"github.com/coreos/etcd/pkg/cors"
-	"github.com/coreos/etcd/pkg/flags"
-	"github.com/coreos/etcd/pkg/transport"
-	"github.com/coreos/etcd/version"
+	"github.com/algoadv/etcd/etcdserver"
+	"github.com/algoadv/etcd/pkg/cors"
+	"github.com/algoadv/etcd/pkg/flags"
+	"github.com/algoadv/etcd/pkg/transport"
+	"github.com/algoadv/etcd/version"
 )
 
 const (

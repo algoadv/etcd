@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/beorn7/perks/quantile"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/github.com/beorn7/perks/quantile"
 )
 
 func Example_simple() {

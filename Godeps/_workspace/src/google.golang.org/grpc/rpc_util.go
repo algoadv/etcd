@@ -42,11 +42,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/golang/protobuf/proto"
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/codes"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/metadata"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/transport"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/github.com/golang/protobuf/proto"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/golang.org/x/net/context"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/google.golang.org/grpc/codes"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/google.golang.org/grpc/metadata"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/google.golang.org/grpc/transport"
 )
 
 // Codec defines the interface gRPC uses to encode and decode messages.

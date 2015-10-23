@@ -40,7 +40,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/golang/glog"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/github.com/golang/glog"
 )
 
 var (

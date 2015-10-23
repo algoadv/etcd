@@ -21,13 +21,13 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/coreos/go-semver/semver"
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	etcdErr "github.com/coreos/etcd/error"
-	"github.com/coreos/etcd/etcdserver"
-	"github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/pkg/types"
-	"github.com/coreos/etcd/raft/raftpb"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/github.com/coreos/go-semver/semver"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/golang.org/x/net/context"
+	etcdErr "github.com/algoadv/etcd/error"
+	"github.com/algoadv/etcd/etcdserver"
+	"github.com/algoadv/etcd/etcdserver/etcdserverpb"
+	"github.com/algoadv/etcd/pkg/types"
+	"github.com/algoadv/etcd/raft/raftpb"
 )
 
 type fakeCluster struct {

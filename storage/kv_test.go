@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/pkg/testutil"
-	"github.com/coreos/etcd/storage/storagepb"
+	"github.com/algoadv/etcd/pkg/testutil"
+	"github.com/algoadv/etcd/storage/storagepb"
 )
 
 // Functional tests for features implemented in v3 store. It treats v3 store

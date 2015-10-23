@@ -10,8 +10,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/oauth2"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/golang.org/x/net/context"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/golang.org/x/oauth2"
 )
 
 // Set at init time by appengine_hook.go. If nil, we're not on App Engine.

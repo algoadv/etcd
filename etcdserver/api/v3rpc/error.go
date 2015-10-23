@@ -15,9 +15,9 @@
 package v3rpc
 
 import (
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/codes"
-	"github.com/coreos/etcd/storage"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/google.golang.org/grpc"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/google.golang.org/grpc/codes"
+	"github.com/algoadv/etcd/storage"
 )
 
 var (

@@ -42,12 +42,12 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/bradfitz/http2"
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/bradfitz/http2/hpack"
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/codes"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/grpclog"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/metadata"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/github.com/bradfitz/http2"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/github.com/bradfitz/http2/hpack"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/golang.org/x/net/context"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/google.golang.org/grpc/codes"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/google.golang.org/grpc/grpclog"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/google.golang.org/grpc/metadata"
 )
 
 // ErrIllegalHeaderWrite indicates that setting header is illegal because of

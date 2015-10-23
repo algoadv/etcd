@@ -19,7 +19,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/coreos/etcd/pkg/types"
+	"github.com/algoadv/etcd/pkg/types"
 )
 
 var (

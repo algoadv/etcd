@@ -21,9 +21,9 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/oauth2"
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/oauth2/google"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/golang.org/x/net/context"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/golang.org/x/oauth2"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/golang.org/x/oauth2/google"
 	"google.golang.org/cloud"
 )
 

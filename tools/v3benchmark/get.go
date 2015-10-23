@@ -17,9 +17,9 @@ package main
 import (
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc"
-	"github.com/coreos/etcd/etcdserver/etcdserverpb"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/golang.org/x/net/context"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/google.golang.org/grpc"
+	"github.com/algoadv/etcd/etcdserver/etcdserverpb"
 )
 
 func benchGet(conn *grpc.ClientConn, key, rangeEnd []byte, n, c int) {

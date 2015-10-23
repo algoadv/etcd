@@ -17,9 +17,9 @@ package main
 import (
 	"os"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/codegangsta/cli"
-	"github.com/coreos/etcd/etcdctlv3/command"
-	"github.com/coreos/etcd/version"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/github.com/codegangsta/cli"
+	"github.com/algoadv/etcd/etcdctlv3/command"
+	"github.com/algoadv/etcd/version"
 )
 
 func main() {

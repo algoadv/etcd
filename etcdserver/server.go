@@ -28,29 +28,29 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/coreos/go-semver/semver"
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	"github.com/coreos/etcd/discovery"
-	"github.com/coreos/etcd/etcdserver/etcdhttp/httptypes"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/etcdserver/stats"
-	"github.com/coreos/etcd/pkg/fileutil"
-	"github.com/coreos/etcd/pkg/idutil"
-	"github.com/coreos/etcd/pkg/pbutil"
-	"github.com/coreos/etcd/pkg/runtime"
-	"github.com/coreos/etcd/pkg/timeutil"
-	"github.com/coreos/etcd/pkg/transport"
-	"github.com/coreos/etcd/pkg/types"
-	"github.com/coreos/etcd/pkg/wait"
-	"github.com/coreos/etcd/raft"
-	"github.com/coreos/etcd/raft/raftpb"
-	"github.com/coreos/etcd/rafthttp"
-	"github.com/coreos/etcd/snap"
-	dstorage "github.com/coreos/etcd/storage"
-	"github.com/coreos/etcd/store"
-	"github.com/coreos/etcd/version"
-	"github.com/coreos/etcd/wal"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/github.com/coreos/go-semver/semver"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/golang.org/x/net/context"
+	"github.com/algoadv/etcd/discovery"
+	"github.com/algoadv/etcd/etcdserver/etcdhttp/httptypes"
+	pb "github.com/algoadv/etcd/etcdserver/etcdserverpb"
+	"github.com/algoadv/etcd/etcdserver/stats"
+	"github.com/algoadv/etcd/pkg/fileutil"
+	"github.com/algoadv/etcd/pkg/idutil"
+	"github.com/algoadv/etcd/pkg/pbutil"
+	"github.com/algoadv/etcd/pkg/runtime"
+	"github.com/algoadv/etcd/pkg/timeutil"
+	"github.com/algoadv/etcd/pkg/transport"
+	"github.com/algoadv/etcd/pkg/types"
+	"github.com/algoadv/etcd/pkg/wait"
+	"github.com/algoadv/etcd/raft"
+	"github.com/algoadv/etcd/raft/raftpb"
+	"github.com/algoadv/etcd/rafthttp"
+	"github.com/algoadv/etcd/snap"
+	dstorage "github.com/algoadv/etcd/storage"
+	"github.com/algoadv/etcd/store"
+	"github.com/algoadv/etcd/version"
+	"github.com/algoadv/etcd/wal"
 )
 
 const (
@@ -69,7 +69,7 @@ const (
 )
 
 var (
-	plog = capnslog.NewPackageLogger("github.com/coreos/etcd", "etcdserver")
+	plog = capnslog.NewPackageLogger("github.com/algoadv/etcd", "etcdserver")
 
 	storeMemberAttributeRegexp = regexp.MustCompile(path.Join(storeMembersPrefix, "[[:xdigit:]]{1,16}", attributesSuffix))
 )

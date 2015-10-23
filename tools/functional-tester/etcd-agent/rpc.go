@@ -20,7 +20,7 @@ import (
 	"net/http"
 	"net/rpc"
 
-	"github.com/coreos/etcd/tools/functional-tester/etcd-agent/client"
+	"github.com/algoadv/etcd/tools/functional-tester/etcd-agent/client"
 )
 
 func (a *Agent) serveRPC() {

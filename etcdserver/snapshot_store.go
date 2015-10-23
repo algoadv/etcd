@@ -21,11 +21,11 @@ import (
 	"os"
 	"path"
 
-	"github.com/coreos/etcd/pkg/fileutil"
-	"github.com/coreos/etcd/raft"
-	"github.com/coreos/etcd/raft/raftpb"
-	"github.com/coreos/etcd/rafthttp"
-	dstorage "github.com/coreos/etcd/storage"
+	"github.com/algoadv/etcd/pkg/fileutil"
+	"github.com/algoadv/etcd/raft"
+	"github.com/algoadv/etcd/raft/raftpb"
+	"github.com/algoadv/etcd/rafthttp"
+	dstorage "github.com/algoadv/etcd/storage"
 )
 
 type snapshot struct {

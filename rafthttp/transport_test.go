@@ -20,11 +20,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/xiang90/probing"
-	"github.com/coreos/etcd/etcdserver/stats"
-	"github.com/coreos/etcd/pkg/testutil"
-	"github.com/coreos/etcd/pkg/types"
-	"github.com/coreos/etcd/raft/raftpb"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/github.com/xiang90/probing"
+	"github.com/algoadv/etcd/etcdserver/stats"
+	"github.com/algoadv/etcd/pkg/testutil"
+	"github.com/algoadv/etcd/pkg/types"
+	"github.com/algoadv/etcd/raft/raftpb"
 )
 
 // TestTransportSend tests that transport can send messages using correct

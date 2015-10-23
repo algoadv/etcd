@@ -27,31 +27,31 @@ import (
 	"strings"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/coreos/go-systemd/daemon"
-	systemdutil "github.com/coreos/etcd/Godeps/_workspace/src/github.com/coreos/go-systemd/util"
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/prometheus/client_golang/prometheus"
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/netutil"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc"
-	"github.com/coreos/etcd/discovery"
-	"github.com/coreos/etcd/etcdserver"
-	"github.com/coreos/etcd/etcdserver/api/v3rpc"
-	"github.com/coreos/etcd/etcdserver/etcdhttp"
-	"github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/pkg/cors"
-	"github.com/coreos/etcd/pkg/fileutil"
-	"github.com/coreos/etcd/pkg/osutil"
-	runtimeutil "github.com/coreos/etcd/pkg/runtime"
-	"github.com/coreos/etcd/pkg/transport"
-	"github.com/coreos/etcd/pkg/types"
-	"github.com/coreos/etcd/proxy"
-	"github.com/coreos/etcd/rafthttp"
-	"github.com/coreos/etcd/version"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/github.com/coreos/go-systemd/daemon"
+	systemdutil "github.com/algoadv/etcd/Godeps/_workspace/src/github.com/coreos/go-systemd/util"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/github.com/prometheus/client_golang/prometheus"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/golang.org/x/net/netutil"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/google.golang.org/grpc"
+	"github.com/algoadv/etcd/discovery"
+	"github.com/algoadv/etcd/etcdserver"
+	"github.com/algoadv/etcd/etcdserver/api/v3rpc"
+	"github.com/algoadv/etcd/etcdserver/etcdhttp"
+	"github.com/algoadv/etcd/etcdserver/etcdserverpb"
+	"github.com/algoadv/etcd/pkg/cors"
+	"github.com/algoadv/etcd/pkg/fileutil"
+	"github.com/algoadv/etcd/pkg/osutil"
+	runtimeutil "github.com/algoadv/etcd/pkg/runtime"
+	"github.com/algoadv/etcd/pkg/transport"
+	"github.com/algoadv/etcd/pkg/types"
+	"github.com/algoadv/etcd/proxy"
+	"github.com/algoadv/etcd/rafthttp"
+	"github.com/algoadv/etcd/version"
 )
 
 type dirType string
 
-var plog = capnslog.NewPackageLogger("github.com/coreos/etcd", "etcdmain")
+var plog = capnslog.NewPackageLogger("github.com/algoadv/etcd", "etcdmain")
 
 const (
 	// the owner can make/remove files inside the directory
@@ -520,7 +520,7 @@ func setupLogging(cfg *config) {
 		capnslog.SetGlobalLogLevel(capnslog.DEBUG)
 	}
 	if cfg.logPkgLevels != "" {
-		repoLog := capnslog.MustRepoLogger("github.com/coreos/etcd")
+		repoLog := capnslog.MustRepoLogger("github.com/algoadv/etcd")
 		settings, err := repoLog.ParseLogLevelConfig(cfg.logPkgLevels)
 		if err != nil {
 			plog.Warningf("couldn't parse log level string: %s, continuing with default levels", err.Error())

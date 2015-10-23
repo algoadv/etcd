@@ -15,12 +15,12 @@
 package v3rpc
 
 import (
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/codes"
-	"github.com/coreos/etcd/etcdserver"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/storage"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/golang.org/x/net/context"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/google.golang.org/grpc"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/google.golang.org/grpc/codes"
+	"github.com/algoadv/etcd/etcdserver"
+	pb "github.com/algoadv/etcd/etcdserver/etcdserverpb"
+	"github.com/algoadv/etcd/storage"
 )
 
 type handler struct {

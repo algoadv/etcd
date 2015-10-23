@@ -18,9 +18,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/codegangsta/cli"
-	"github.com/coreos/etcd/etcdctl/command"
-	"github.com/coreos/etcd/version"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/github.com/codegangsta/cli"
+	"github.com/algoadv/etcd/etcdctl/command"
+	"github.com/algoadv/etcd/version"
 )
 
 func main() {

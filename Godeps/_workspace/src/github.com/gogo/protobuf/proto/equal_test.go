@@ -34,8 +34,8 @@ package proto_test
 import (
 	"testing"
 
-	. "github.com/coreos/etcd/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
-	pb "github.com/coreos/etcd/Godeps/_workspace/src/github.com/gogo/protobuf/proto/testdata"
+	. "github.com/algoadv/etcd/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
+	pb "github.com/algoadv/etcd/Godeps/_workspace/src/github.com/gogo/protobuf/proto/testdata"
 )
 
 // Four identical base messages.

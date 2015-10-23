@@ -14,10 +14,10 @@
 */
 package walpb
 
-import proto "github.com/coreos/etcd/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
+import proto "github.com/algoadv/etcd/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
 import math "math"
 
-// discarding unused import gogoproto "github.com/coreos/etcd/Godeps/_workspace/src/gogoproto"
+// discarding unused import gogoproto "github.com/algoadv/etcd/Godeps/_workspace/src/gogoproto"
 
 import io "io"
 import fmt "fmt"

@@ -21,13 +21,13 @@ import (
 	"path"
 	"time"
 
-	"github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/pkg/pbutil"
-	"github.com/coreos/etcd/pkg/types"
-	"github.com/coreos/etcd/raft/raftpb"
-	"github.com/coreos/etcd/snap"
-	"github.com/coreos/etcd/wal"
-	"github.com/coreos/etcd/wal/walpb"
+	"github.com/algoadv/etcd/etcdserver/etcdserverpb"
+	"github.com/algoadv/etcd/pkg/pbutil"
+	"github.com/algoadv/etcd/pkg/types"
+	"github.com/algoadv/etcd/raft/raftpb"
+	"github.com/algoadv/etcd/snap"
+	"github.com/algoadv/etcd/wal"
+	"github.com/algoadv/etcd/wal/walpb"
 )
 
 func main() {

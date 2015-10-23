@@ -4,14 +4,14 @@
 
 package etcdserverpb
 
-import proto "github.com/coreos/etcd/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
+import proto "github.com/algoadv/etcd/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
 
-// discarding unused import gogoproto "github.com/coreos/etcd/Godeps/_workspace/src/gogoproto"
-import storagepb "github.com/coreos/etcd/storage/storagepb"
+// discarding unused import gogoproto "github.com/algoadv/etcd/Godeps/_workspace/src/gogoproto"
+import storagepb "github.com/algoadv/etcd/storage/storagepb"
 
 import (
-	context "github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	grpc "github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc"
+	context "github.com/algoadv/etcd/Godeps/_workspace/src/golang.org/x/net/context"
+	grpc "github.com/algoadv/etcd/Godeps/_workspace/src/google.golang.org/grpc"
 )
 
 import io "io"

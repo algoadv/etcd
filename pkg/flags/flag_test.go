@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/coreos/etcd/pkg/transport"
+	"github.com/algoadv/etcd/pkg/transport"
 )
 
 func TestSetFlagsFromEnv(t *testing.T) {

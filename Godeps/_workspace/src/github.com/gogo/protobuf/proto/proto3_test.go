@@ -34,9 +34,9 @@ package proto_test
 import (
 	"testing"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
-	pb "github.com/coreos/etcd/Godeps/_workspace/src/github.com/gogo/protobuf/proto/proto3_proto"
-	tpb "github.com/coreos/etcd/Godeps/_workspace/src/github.com/gogo/protobuf/proto/testdata"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/github.com/gogo/protobuf/proto"
+	pb "github.com/algoadv/etcd/Godeps/_workspace/src/github.com/gogo/protobuf/proto/proto3_proto"
+	tpb "github.com/algoadv/etcd/Godeps/_workspace/src/github.com/gogo/protobuf/proto/testdata"
 )
 
 func TestProto3ZeroValues(t *testing.T) {

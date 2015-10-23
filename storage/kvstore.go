@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coreos/etcd/storage/backend"
-	"github.com/coreos/etcd/storage/storagepb"
+	"github.com/algoadv/etcd/storage/backend"
+	"github.com/algoadv/etcd/storage/storagepb"
 )
 
 var (

@@ -9,7 +9,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/oauth2"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/golang.org/x/oauth2"
 )
 
 var dummyPrivateKey = []byte(`-----BEGIN RSA PRIVATE KEY-----

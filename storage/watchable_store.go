@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coreos/etcd/storage/storagepb"
+	"github.com/algoadv/etcd/storage/storagepb"
 )
 
 // ReachEnd is the error returned by Watcher.Err when watcher reaches its end revision and

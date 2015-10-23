@@ -15,8 +15,8 @@
 package raft
 
 import (
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	pb "github.com/coreos/etcd/raft/raftpb"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/golang.org/x/net/context"
+	pb "github.com/algoadv/etcd/raft/raftpb"
 )
 
 // MultiNode represents a node that is participating in multiple consensus groups.

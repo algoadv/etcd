@@ -18,8 +18,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/coreos/etcd/etcdserver"
-	"github.com/coreos/etcd/rafthttp"
+	"github.com/algoadv/etcd/etcdserver"
+	"github.com/algoadv/etcd/rafthttp"
 )
 
 const (

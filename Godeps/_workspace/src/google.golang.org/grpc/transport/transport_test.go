@@ -44,10 +44,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/bradfitz/http2"
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/codes"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/grpclog"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/github.com/bradfitz/http2"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/golang.org/x/net/context"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/google.golang.org/grpc/codes"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/google.golang.org/grpc/grpclog"
 )
 
 type server struct {

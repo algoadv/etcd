@@ -8,7 +8,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/boltdb/bolt"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/github.com/boltdb/bolt"
 )
 
 func validateBatchBench(b *testing.B, db *TestDB) {

@@ -37,7 +37,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/bradfitz/http2"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/github.com/bradfitz/http2"
 )
 
 const (

@@ -24,13 +24,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/crypto/bcrypt"
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	etcderr "github.com/coreos/etcd/error"
-	"github.com/coreos/etcd/etcdserver"
-	"github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/pkg/types"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/golang.org/x/crypto/bcrypt"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/golang.org/x/net/context"
+	etcderr "github.com/algoadv/etcd/error"
+	"github.com/algoadv/etcd/etcdserver"
+	"github.com/algoadv/etcd/etcdserver/etcdserverpb"
+	"github.com/algoadv/etcd/pkg/types"
 )
 
 const (
@@ -45,7 +45,7 @@ const (
 )
 
 var (
-	plog = capnslog.NewPackageLogger("github.com/coreos/etcd/etcdserver", "auth")
+	plog = capnslog.NewPackageLogger("github.com/algoadv/etcd/etcdserver", "auth")
 )
 
 var rootRole = Role{

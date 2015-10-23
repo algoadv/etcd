@@ -22,9 +22,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	etcdclient "github.com/coreos/etcd/client"
-	"github.com/coreos/etcd/tools/functional-tester/etcd-agent/client"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/golang.org/x/net/context"
+	etcdclient "github.com/algoadv/etcd/client"
+	"github.com/algoadv/etcd/tools/functional-tester/etcd-agent/client"
 )
 
 const peerURLPort = 2380
@@ -135,7 +135,7 @@ func (c *cluster) WaitHealth() error {
 	// wait 60s to check cluster health.
 	// TODO: set it to a reasonable value. It is set that high because
 	// follower may use long time to catch up the leader when reboot under
-	// reasonable workload (https://github.com/coreos/etcd/issues/2698)
+	// reasonable workload (https://github.com/algoadv/etcd/issues/2698)
 	for i := 0; i < 60; i++ {
 		err = setHealthKey(c.ClientURLs)
 		if err == nil {

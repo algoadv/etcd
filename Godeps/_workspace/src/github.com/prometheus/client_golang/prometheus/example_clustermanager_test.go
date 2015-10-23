@@ -16,7 +16,7 @@ package prometheus_test
 import (
 	"sync"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/prometheus/client_golang/prometheus"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/github.com/prometheus/client_golang/prometheus"
 )
 
 // ClusterManager is an example for a system that might have been built without

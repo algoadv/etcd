@@ -20,7 +20,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/coreos/etcd/pkg/testutil"
+	"github.com/algoadv/etcd/pkg/testutil"
 )
 
 // This is only tested in Go1.5+ because Go1.4 doesn't support literal IPv6 address with zone in

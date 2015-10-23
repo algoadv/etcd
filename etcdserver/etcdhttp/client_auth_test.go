@@ -22,7 +22,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/coreos/etcd/etcdserver/auth"
+	"github.com/algoadv/etcd/etcdserver/auth"
 )
 
 const goodPassword = "$2a$10$VYdJecHfm6WNodzv8XhmYeIG4n2SsQefdo5V2t6xIq/aWDHNqSUQW"

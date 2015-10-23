@@ -21,8 +21,8 @@ import (
 	"io"
 	"sync"
 
-	"github.com/coreos/etcd/pkg/crc"
-	"github.com/coreos/etcd/wal/walpb"
+	"github.com/algoadv/etcd/pkg/crc"
+	"github.com/algoadv/etcd/wal/walpb"
 )
 
 type encoder struct {

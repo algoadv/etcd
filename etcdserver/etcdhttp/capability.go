@@ -20,9 +20,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/coreos/go-semver/semver"
-	"github.com/coreos/etcd/etcdserver"
-	"github.com/coreos/etcd/etcdserver/etcdhttp/httptypes"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/github.com/coreos/go-semver/semver"
+	"github.com/algoadv/etcd/etcdserver"
+	"github.com/algoadv/etcd/etcdserver/etcdhttp/httptypes"
 )
 
 type capability string

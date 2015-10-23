@@ -17,7 +17,7 @@ package storage
 import (
 	"sync"
 
-	"github.com/coreos/etcd/storage/storagepb"
+	"github.com/algoadv/etcd/storage/storagepb"
 )
 
 type watcher struct {

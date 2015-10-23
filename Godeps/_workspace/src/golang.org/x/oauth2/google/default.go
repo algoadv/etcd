@@ -14,10 +14,10 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/oauth2"
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/oauth2/jwt"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/cloud/compute/metadata"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/golang.org/x/net/context"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/golang.org/x/oauth2"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/golang.org/x/oauth2/jwt"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/google.golang.org/cloud/compute/metadata"
 )
 
 // DefaultClient returns an HTTP Client that uses the

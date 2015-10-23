@@ -55,7 +55,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/bradfitz/http2/hpack"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/github.com/bradfitz/http2/hpack"
 )
 
 const (

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/bgentry/speakeasy"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/github.com/bgentry/speakeasy"
 )
 
 func main() {

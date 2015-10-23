@@ -15,8 +15,8 @@
 package storage
 
 import (
-	"github.com/coreos/etcd/storage/backend"
-	"github.com/coreos/etcd/storage/storagepb"
+	"github.com/algoadv/etcd/storage/backend"
+	"github.com/algoadv/etcd/storage/storagepb"
 )
 
 // CancelFunc tells an operation to abandon its work. A CancelFunc does not

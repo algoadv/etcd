@@ -9,7 +9,7 @@ package unix_test
 import (
 	"testing"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/sys/unix"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/golang.org/x/sys/unix"
 )
 
 const MNT_WAIT = 1

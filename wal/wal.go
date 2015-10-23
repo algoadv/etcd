@@ -25,13 +25,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coreos/etcd/pkg/fileutil"
-	"github.com/coreos/etcd/pkg/pbutil"
-	"github.com/coreos/etcd/raft"
-	"github.com/coreos/etcd/raft/raftpb"
-	"github.com/coreos/etcd/wal/walpb"
+	"github.com/algoadv/etcd/pkg/fileutil"
+	"github.com/algoadv/etcd/pkg/pbutil"
+	"github.com/algoadv/etcd/raft"
+	"github.com/algoadv/etcd/raft/raftpb"
+	"github.com/algoadv/etcd/wal/walpb"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/github.com/coreos/pkg/capnslog"
 )
 
 const (
@@ -50,7 +50,7 @@ const (
 )
 
 var (
-	plog = capnslog.NewPackageLogger("github.com/coreos/etcd", "wal")
+	plog = capnslog.NewPackageLogger("github.com/algoadv/etcd", "wal")
 
 	ErrMetadataConflict = errors.New("wal: conflicting metadata found")
 	ErrFileNotFound     = errors.New("wal: file not found")

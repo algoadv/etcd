@@ -25,8 +25,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/golang/protobuf/proto"
-	dto "github.com/coreos/etcd/Godeps/_workspace/src/github.com/prometheus/client_model/go"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/github.com/golang/protobuf/proto"
+	dto "github.com/algoadv/etcd/Godeps/_workspace/src/github.com/prometheus/client_model/go"
 )
 
 type fakeResponseWriter struct {

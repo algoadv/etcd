@@ -10,7 +10,7 @@ import (
 	"net/http/httptest"
 	"os"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/boltdb/bolt"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/github.com/boltdb/bolt"
 )
 
 // Set this to see how the counts are actually updated.

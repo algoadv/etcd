@@ -11,7 +11,7 @@ package oauth2
 import (
 	"net/http"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/golang.org/x/net/context"
 	"google.golang.org/appengine/urlfetch"
 )
 

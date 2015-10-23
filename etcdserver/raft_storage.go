@@ -15,8 +15,8 @@
 package etcdserver
 
 import (
-	"github.com/coreos/etcd/raft"
-	"github.com/coreos/etcd/raft/raftpb"
+	"github.com/algoadv/etcd/raft"
+	"github.com/algoadv/etcd/raft/raftpb"
 )
 
 type raftStorage struct {

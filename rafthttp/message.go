@@ -18,8 +18,8 @@ import (
 	"encoding/binary"
 	"io"
 
-	"github.com/coreos/etcd/pkg/pbutil"
-	"github.com/coreos/etcd/raft/raftpb"
+	"github.com/algoadv/etcd/pkg/pbutil"
+	"github.com/algoadv/etcd/raft/raftpb"
 )
 
 // messageEncoder is a encoder that can encode all kinds of messages.

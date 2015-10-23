@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/benchmark/stats"
-	testpb "github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/interop/grpc_testing"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/google.golang.org/grpc/benchmark/stats"
+	testpb "github.com/algoadv/etcd/Godeps/_workspace/src/google.golang.org/grpc/interop/grpc_testing"
 )
 
 func run(b *testing.B, maxConcurrentCalls int, caller func(testpb.TestServiceClient)) {

@@ -21,12 +21,12 @@ It has these top-level messages:
 */
 package grpc_testing
 
-import proto "github.com/coreos/etcd/Godeps/_workspace/src/github.com/golang/protobuf/proto"
+import proto "github.com/algoadv/etcd/Godeps/_workspace/src/github.com/golang/protobuf/proto"
 import math "math"
 
 import (
-	context "github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	grpc "github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc"
+	context "github.com/algoadv/etcd/Godeps/_workspace/src/golang.org/x/net/context"
+	grpc "github.com/algoadv/etcd/Godeps/_workspace/src/google.golang.org/grpc"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

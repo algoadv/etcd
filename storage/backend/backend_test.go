@@ -22,8 +22,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/boltdb/bolt"
-	"github.com/coreos/etcd/pkg/testutil"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/github.com/boltdb/bolt"
+	"github.com/algoadv/etcd/pkg/testutil"
 )
 
 var tmpPath string

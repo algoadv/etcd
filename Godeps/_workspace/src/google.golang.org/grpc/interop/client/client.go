@@ -41,14 +41,14 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/golang/protobuf/proto"
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/codes"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/credentials"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/grpclog"
-	testpb "github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/interop/grpc_testing"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/metadata"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/github.com/golang/protobuf/proto"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/golang.org/x/net/context"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/google.golang.org/grpc"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/google.golang.org/grpc/codes"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/google.golang.org/grpc/credentials"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/google.golang.org/grpc/grpclog"
+	testpb "github.com/algoadv/etcd/Godeps/_workspace/src/google.golang.org/grpc/interop/grpc_testing"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/google.golang.org/grpc/metadata"
 )
 
 var (

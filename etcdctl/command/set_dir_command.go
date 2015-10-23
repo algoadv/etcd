@@ -15,8 +15,8 @@
 package command
 
 import (
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/codegangsta/cli"
-	"github.com/coreos/etcd/client"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/github.com/codegangsta/cli"
+	"github.com/algoadv/etcd/client"
 )
 
 // NewSetDirCommand returns the CLI command for "setDir".

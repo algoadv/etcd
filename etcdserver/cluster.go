@@ -25,13 +25,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/coreos/go-semver/semver"
-	"github.com/coreos/etcd/pkg/netutil"
-	"github.com/coreos/etcd/pkg/types"
-	"github.com/coreos/etcd/raft"
-	"github.com/coreos/etcd/raft/raftpb"
-	"github.com/coreos/etcd/store"
-	"github.com/coreos/etcd/version"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/github.com/coreos/go-semver/semver"
+	"github.com/algoadv/etcd/pkg/netutil"
+	"github.com/algoadv/etcd/pkg/types"
+	"github.com/algoadv/etcd/raft"
+	"github.com/algoadv/etcd/raft/raftpb"
+	"github.com/algoadv/etcd/store"
+	"github.com/algoadv/etcd/version"
 )
 
 const (
@@ -388,7 +388,7 @@ func (c *cluster) isReadyToAddNewMember() bool {
 
 	if nstarted == 1 && nmembers == 2 {
 		// a case of adding a new node to 1-member cluster for restoring cluster data
-		// https://github.com/coreos/etcd/blob/master/Documentation/admin_guide.md#restoring-the-cluster
+		// https://github.com/algoadv/etcd/blob/master/Documentation/admin_guide.md#restoring-the-cluster
 
 		plog.Debugf("The number of started member is 1. This cluster can accept add member request.")
 		return true

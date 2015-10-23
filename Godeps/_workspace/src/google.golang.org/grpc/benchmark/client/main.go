@@ -9,10 +9,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/benchmark"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/benchmark/stats"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/grpclog"
-	testpb "github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/interop/grpc_testing"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/google.golang.org/grpc/benchmark"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/google.golang.org/grpc/benchmark/stats"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/google.golang.org/grpc/grpclog"
+	testpb "github.com/algoadv/etcd/Godeps/_workspace/src/google.golang.org/grpc/interop/grpc_testing"
 )
 
 var (

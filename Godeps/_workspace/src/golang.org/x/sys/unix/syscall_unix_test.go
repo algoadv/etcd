@@ -18,7 +18,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/sys/unix"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/golang.org/x/sys/unix"
 )
 
 // Tests that below functions, structures and constants are consistent

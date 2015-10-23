@@ -37,10 +37,10 @@ import (
 	"errors"
 	"io"
 
-	"github.com/coreos/etcd/Godeps/_workspace/src/golang.org/x/net/context"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/codes"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/metadata"
-	"github.com/coreos/etcd/Godeps/_workspace/src/google.golang.org/grpc/transport"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/golang.org/x/net/context"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/google.golang.org/grpc/codes"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/google.golang.org/grpc/metadata"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/google.golang.org/grpc/transport"
 )
 
 type streamHandler func(srv interface{}, stream ServerStream) error

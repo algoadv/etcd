@@ -20,8 +20,8 @@ import (
 	"math"
 	"strings"
 
-	dto "github.com/coreos/etcd/Godeps/_workspace/src/github.com/prometheus/client_model/go"
-	"github.com/coreos/etcd/Godeps/_workspace/src/github.com/prometheus/common/model"
+	dto "github.com/algoadv/etcd/Godeps/_workspace/src/github.com/prometheus/client_model/go"
+	"github.com/algoadv/etcd/Godeps/_workspace/src/github.com/prometheus/common/model"
 )
 
 // MetricFamilyToText converts a MetricFamily proto message into text format and
